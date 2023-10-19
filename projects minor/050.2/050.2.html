@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Формы. Отправляем данные на сервер</title>
+</head>
+
+<html>
+
+<body>
+    <form action="#" name="UserEnter" target="_blank">
+        <table cellspacing="0" cellpadding="6" border="5">
+            <tr>
+                <td colspan="3" align="center">
+                    <textarea name="ufms" cols="40">Каким УФМС был выдан паспорт?</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="date" name="date1" value="2016-12-29">
+                </td>
+                <td colspan="2">
+                    <input type=password minlength="3" maxlength="3" name='password1' size="2">-<input type="number"
+                        name="password2" value="64">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="5">
+                    <input type="file" name="photo">
+                </td>
+                <td colspan="2">
+                    <input type="text" name="firstname" value="Имя">
+                </td>
+            <tr>
+                <td colspan="2">
+                    <input type="text" name="secondname" value="Фамилия">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" name="thirdname" value="Отчество">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><input type="radio" value="male" name="gender">муж.</p>
+                    <p><input type="radio" value="male" name="gender">жен.</p>
+                </td>
+                <td>
+                    <p><input type=checkbox name="day" value="yes">17</p>
+                    <p><input type=checkbox name="month" value="yes">11</p>
+                    <p><input type=checkbox name="year" value="yes">2003</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="city">
+                        <OPTION value="гор. Москва">гор. Москва</OPTION>
+                        <OPTION value="гор. Санкт-Петербург">гор. Санкт-Петербург</OPTION>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <input type="Reset" name="Reset" value="Обновить">
+        <input type="Submit" name="submit" value="Отправить">
+    </form>
+</body>
+
+</html>
