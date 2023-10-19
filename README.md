@@ -1,2 +1,2 @@
 # homeworkminor
-# https://artyombelyaev.github.io/homeworkminor/projectsminor/040.1.html
+## https://artyombelyaev.github.io/homeworkminor/projectsminor/зад1.1.html
